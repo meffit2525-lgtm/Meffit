@@ -3,7 +3,7 @@
   "bot-account": {
     "username": "ElisDIH",
     "password": "",
-    "type": "offline"
+    "type": "online"
   },
   "server": {
     "ip": "LiterallyMeffit.aternos.me",
@@ -23,8 +23,8 @@
       "password": "chalol78"
     },
     "anti-afk": {
-      "enabled": true,
-      "sneak": true
+      "enabled": false,
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
@@ -32,7 +32,7 @@
       "repeat-delay": 120,
       "messages": [
     
-        "I like to play Minecraft!"
+        "I want Eli to fill me up!"
       ]
     },
     "chat-log": true,
@@ -41,7 +41,7 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
@@ -52,14 +52,14 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
